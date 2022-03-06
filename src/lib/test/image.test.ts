@@ -23,3 +23,11 @@ test('srcset', () => {
 test('sizes', () => {
 	expect(url_for(test_asset).sizes().if({ maxWidth: 600 }).then(480).else(800)).toMatchSnapshot();
 });
+
+test('sizes - missing if / else', () => {
+	expect(() => url_for(test_asset).sizes().then(600)).toThrowError();
+});
+
+test('sizes - missing then', () => {
+	expect(() => url_for(test_asset).sizes().if({ maxWidth: 500 }).else(500)).toThrowError();
+});
