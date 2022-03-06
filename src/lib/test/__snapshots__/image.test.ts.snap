@@ -1,0 +1,10 @@
+// Vitest Snapshot v1
+
+exports[`sizes 1`] = `
+{
+  "sizes": "(max-width:600px) 480px, 800px",
+  "srcset": "https://cdn.sanity.io/images/abcdefgh/development/6ac29c68b72cfcfe03fdb0753d154f4b30190cc3-90x90.png?w=480 480w, https://cdn.sanity.io/images/abcdefgh/development/6ac29c68b72cfcfe03fdb0753d154f4b30190cc3-90x90.png?w=960 960w, https://cdn.sanity.io/images/abcdefgh/development/6ac29c68b72cfcfe03fdb0753d154f4b30190cc3-90x90.png?w=800 800w, https://cdn.sanity.io/images/abcdefgh/development/6ac29c68b72cfcfe03fdb0753d154f4b30190cc3-90x90.png?w=1600 1600w",
+}
+`;
+
+exports[`srcset 1`] = `"https://cdn.sanity.io/images/abcdefgh/development/6ac29c68b72cfcfe03fdb0753d154f4b30190cc3-90x90.png?w=100 100w, https://cdn.sanity.io/images/abcdefgh/development/6ac29c68b72cfcfe03fdb0753d154f4b30190cc3-90x90.png?w=200 200w, https://cdn.sanity.io/images/abcdefgh/development/6ac29c68b72cfcfe03fdb0753d154f4b30190cc3-90x90.png?w=300 300w"`;
